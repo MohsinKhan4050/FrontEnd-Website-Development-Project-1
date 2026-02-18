@@ -519,7 +519,6 @@ textarea {
 
 /* ------------contact us--------- */
 .contact-us {
-
     width: 100%;
     min-height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/background.jpg);
@@ -528,7 +527,6 @@ textarea {
 }
 
 .contact-us h1 {
-
     color: #fff;
     text-align: center;
     margin-top: 60px;
@@ -547,13 +545,17 @@ textarea {
 
 /* ----------contact details------- */
 
+.contact-details {
+    width: 100%;
+}
+
 .contact-info {
     width: 100%;
     max-width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .contact-time p {
@@ -568,10 +570,12 @@ textarea {
 
 .contact-time {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    margin-bottom: 30px;
     margin-top: 30px;
+    width: 100%;
+    word-break: break-all;
 }
 
 .contact-time i {
@@ -580,8 +584,7 @@ textarea {
 }
 
 .location {
-    flex: 1 1 calc((100% / 2));
-
+    flex: 1 1 calc((100% / 2) - 30px);
 }
 
 
@@ -653,7 +656,8 @@ textarea {
     .facilities-card,
     .testimonials-card,
     .about-info,
-    .blog-img {
+    .blog-img,
+    .location {
         flex: 1 1 100%;
     }
 
