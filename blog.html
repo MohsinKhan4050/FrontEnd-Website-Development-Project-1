@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses we offer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="blog-header">
+        <nav id="navBar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <i class="fa-solid fa-bars toggle-icon"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2026</h1>
+    </header>
+
+    <!-- -----------blog post details------------- -->
+
+    <section class="blog-post">
+        <div class="blog-content">
+            <div class="blog-img">
+                <img src="images/certificate.jpg" alt="">
+            </div>
+            <div class=" blog-img blog-catagories">
+                <h4>Post Categories</h4>
+                <p>Business Analytics <span>21</span></p>
+                <p>Data Science <span>22</span></p>
+                <p>Mechine Learning <span>30</span></p>
+                <p>Computer Science <span>40</span></p>
+                <p>SoftWare Engeering<span>47</span></p>
+                <p>Cyber Security <span>87</span></p>
+                <p>AI Learning <span>24</span></p>
+            </div>
+
+            <div class="blog-details">
+                <h4>Our Certificate & Online Programs For 2026</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus id tempora optio minima sint cum
+                    vitae velit necessitatibus quibusdam accusantium atque ut aliquid,<br><br> suscipit tempore fugiat
+                    impedit repellat eum labore veniam iste! Corporis quis animi qui dolor beatae adipisci incidunt
+                    alias officiis, quibusdam enim perferendis, aut harum quam <br> <br> facilis accusantium? Nostrum
+                    magnam obcaecati commodi saepe perspiciatis pariatur sed! Laudantium delectus aliquid dolor
+                    reiciendis cupiditate quas quae id provident minus assumenda, eum repellendus hic, praesentium
+                    maiores et quod voluptatem alias omnis? Aut quos unde, pariatur iure corrupti velit sit numquam nam
+                    eius reprehenderit harum odit labore assumenda eaque accusantium,<br> quasi natus. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Nam at sequi exercitationem <br> <br>aliquid ex alias in
+                    possimus quas dicta? Aliquam,<br> asperiores dolores? Error odio autem nulla quo ad voluptatum
+                    consequatur saepe asperiores laborum. Nobis quaerat ratione explicabo, magnam illum sequi. Ratione,
+                    provident doloribus? Assumenda repudiandae at quas ad fugiat ab.</p>
+
+                <div class="comment">
+                    <h5>Leave a comment</h5>
+                    <form action="">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Your email">
+                        <textarea name="" id="" rows="5" cols="50" placeholder="Your Comment"></textarea>
+                        <button class="contact-btn comment-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------footer section----------------------- -->
+
+    <footer class="footer-section">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci consequuntur odio quisquam. Dolores in
+            facilis quasi ex voluptatum voluptates? <br>Eaque illo dolorum nemo placeat iusto mollitia, cumque facere
+            quo!</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Copyright @ 2026 Created by Mohsin Khan</p>
+    </footer>
+
+    <!-- ---------------javascript --------------------------- -->
+    <script>
+        let navBar = document.getElementById('navBar');
+        let iconBar = document.querySelector('.toggle-icon');
+
+        let iconClick = () => {
+            navBar.classList.toggle('show-menu')
+        }
+        iconBar.addEventListener('click', iconClick);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="aboutUs-header">
+        <nav id="navBar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" class="logo-img">
+            </div>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about-us">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <i class="fa-solid fa-bars toggle-icon"></i>
+        </nav>
+        <h1>About-us</h1>
+    </header>
+
+    <!-- -------------------about section------------------------ -->
+
+    <section class="about-section" id="about-us">
+        <div class="about-content">
+            <div class="about-info">
+                <h2>We are the world's largest university</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consequuntur non voluptatum
+                    recusandae blanditiis sunt deleniti ullam aut temporibus?Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Reprehenderit dicta esse iure eaque qui sunt cum recusandae vero nobis sit? Lorem
+                    ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aliquid.</p>
+                <a href="" class="contact-btn about-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-info">
+                <img src="images/about.jpg" alt="" class="aboutinfo-img">
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------footer section----------------------- -->
+
+    <footer class="footer-section">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci consequuntur odio quisquam. Dolores in
+            facilis quasi ex voluptatum voluptates? <br>Eaque illo dolorum nemo placeat iusto mollitia, cumque facere
+            quo!</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Copyright @ 2026 Created by Mohsin Khan</p>
+    </footer>
+
+    <!-- ---------------java Script---------------- -->
+     
+    <script>
+        let navBar = document.getElementById('navBar');
+        let iconBar = document.querySelector('.toggle-icon');
+
+        let iconClick = () => {
+            navBar.classList.toggle('show-menu')
+        }
+        iconBar.addEventListener('click', iconClick);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="contact-us">
+        <nav id="navBar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <i class="fa-solid fa-bars toggle-icon"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </header>
+
+    <!-- --------------Map---------------------- -->
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54450.676805482224!2d74.27696225!3d31.464583699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919015f82b0b86f%3A0x2fcaf9fdeb3d02e6!2sJohar%20Town%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1771374947165!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- ------------contact details------------- -->
+
+    <div class="contact-details">
+        <div class="contact-info">
+            <div class="location">
+                <div class="contact-time">
+                    <i class="fa-solid fa-house"></i>
+                    <p>
+                        Xyz road , ABC building <br>
+                        <span>Pakistan Lahore PK</span>
+                    </p>
+                </div>
+                <div class="contact-time">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>
+                        +92123456789<br>
+                        <span>Monday to Saturday 10Am to 6Pm</span>
+                    </p>
+                </div>
+                <div class="contact-time">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>
+                        webdevelopment4050@gmail.com<br>
+                        <span>Email us your query</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="comment location">
+                <h5>Leave a comment</h5>
+                <form action="">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Your email">
+                    <input type="email" placeholder="Enter your subject">
+
+                    <textarea name="" id="" rows="15" cols="50" placeholder="Your Comment"></textarea>
+                    <button class="contact-btn comment-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------footer section----------------------- -->
+
+    <footer class="footer-section">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci consequuntur odio quisquam. Dolores in
+            facilis quasi ex voluptatum voluptates? <br>Eaque illo dolorum nemo placeat iusto mollitia, cumque facere
+            quo!</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Copyright @ 2026 Created by Mohsin Khan</p>
+    </footer>
+
+    <!-- ---------------javascript --------------------------- -->
+    <script>
+        let navBar = document.getElementById('navBar');
+        let iconBar = document.querySelector('.toggle-icon');
+
+        let iconClick = () => {
+            navBar.classList.toggle('show-menu')
+        }
+        iconBar.addEventListener('click', iconClick);
+    </script>
+
+</body>
+
+</html>
