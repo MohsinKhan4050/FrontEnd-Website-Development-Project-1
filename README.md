@@ -4,7 +4,7 @@ A responsive education website showcasing courses, global campuses, facilities, 
 
 ## 🚀 Features
 
--<h5> **Responsive Design**:</h5> Works on desktop, tablet, and mobile devices using Media Queries.
+-<b> **Responsive Design**:</b> Works on desktop, tablet, and mobile devices using Media Queries.
 - **Hero Section**: Eye-catching banner with title, description, and call-to-action button.
 - **Courses Section**: Highlights Intermediate, Degree, and Post Graduation courses.
 - **Campus Section**: Showcases global campuses with images and hover overlay effects.
