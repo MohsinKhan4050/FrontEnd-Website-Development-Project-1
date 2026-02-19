@@ -1,3 +1,4 @@
 # FrontEnd-Website-Development-Project-4
 
-University Websites
+Education Website <br>
+I created this website by using HTML, CSS, MEDIA QUERY and JAVASCRIPT
