@@ -12,7 +12,7 @@ A responsive education website showcasing courses, global campuses, facilities, 
 - **Testimonials Section**: Realistic student reviews with ratings.
 - **Call-to-Action Section**: Encourages users to explore courses.
 - **Footer Section**: Contact info, social media links, and copyright info.
-- **Mobile Navigation**: JavaScript-based toggle menu for smaller screens.<hr>
+- **Mobile Navigation**: JavaScript-based toggle menu for smaller screens.
 
 ## 🛠 Technologies Used
 
